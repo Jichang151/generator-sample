@@ -7,7 +7,7 @@ const Generator = require('yeoman-generator')
 
 module.exports = class extends Generator{ 
   // 命令行交互
-  prompting () {
+  prompting () {   
     // yeoman 在询问用户环节会自动调用此方法
     // 在此方法中可以调用父类的 prompt() 方法，发出对用户的命令行询问
     // 返回一个 Promise
